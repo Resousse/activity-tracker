@@ -1,6 +1,6 @@
 # Activity tracker
 
-[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go) [![codecov](https://codecov.io/gh/prashantgupta24/activity-tracker/branch/master/graph/badge.svg)](https://codecov.io/gh/prashantgupta24/activity-tracker) [![Go Report Card](https://goreportcard.com/badge/github.com/prashantgupta24/activity-tracker)](https://goreportcard.com/report/github.com/prashantgupta24/activity-tracker) [![version][version-badge]][RELEASES]
+[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go) [![codecov](https://codecov.io/gh/resousse/activity-tracker/branch/master/graph/badge.svg)](https://codecov.io/gh/prashantgupta24/activity-tracker) [![Go Report Card](https://goreportcard.com/badge/github.com/prashantgupta24/activity-tracker)](https://goreportcard.com/report/github.com/prashantgupta24/activity-tracker) [![version][version-badge]][RELEASES]
 
 It is a libary that lets you monitor certain activities on your machine, and then sends a [heartbeat](https://github.com/prashantgupta24/activity-tracker#heartbeat-struct) at a periodic (configurable) time detailing all the activity changes during that time. The activities that you want to track are monitored by **pluggable** handlers for those activities and can be added or removed according to your needs. An example of an activity is `MouseCursorActivity`, i.e. whether your mouse cursor was moved or not.
 
@@ -212,7 +212,7 @@ Thanks to [robotgo](https://github.com/go-vgo/robotgo) for making a lot of the h
 
 ## Example
 
-Check out the example [here](https://github.com/prashantgupta24/activity-tracker/blob/master/example/example.go)
+Check out the example [here](https://github.com/resousse/activity-tracker/blob/master/example/example.go)
 
 ## Projects using this library
 
@@ -220,4 +220,4 @@ Check out the example [here](https://github.com/prashantgupta24/activity-tracker
 
 
 [version-badge]: https://img.shields.io/github/release/prashantgupta24/activity-tracker.svg
-[RELEASES]: https://github.com/prashantgupta24/activity-tracker/releases
+[RELEASES]: https://github.com/resousse/activity-tracker/releases
